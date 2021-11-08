@@ -195,7 +195,7 @@ class Main:
 				open("cp.txt","a").write("  * --> %s|%s\n"%(uid, pw))
 				break
 			else:
-				print("\r  \033[0;93m* --> %s|%s\033[0;97m         "%(uid, pw))
+				continue
 
 		self.loop +=1
 
