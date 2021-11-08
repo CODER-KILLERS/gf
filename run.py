@@ -69,7 +69,7 @@ class Main:
 					exit("\n [!] kata sandi minimal 6 karakter")
 				print(" [*] crack dengan sandi -> [\033[0;91m%s\033[0;97m]"%(listpass))
 				print("\n [+] hasil ok tersimpan di -> ok.txt")
-				print(" [+] hasil ok tersimpan di -> cp.txt")
+				print(" [+] hasil cp tersimpan di -> cp.txt")
 				print(" [!] jika tidak ada hasil hidupkan mode pesawat 5 detik\n")
 				for user in self.id:
 					coeg.submit(self.api, user, listpass.split(","))
@@ -94,7 +94,7 @@ class Main:
 					exit("\n [!] kata sandi minimal 6 karakter")
 				print(" [*] crack dengan sandi -> [\033[0;91m%s\033[0;97m]"%(listpass))
 				print("\n [+] hasil ok tersimpan di -> ok.txt")
-				print(" [+] hasil ok tersimpan di -> cp.txt")
+				print(" [+] hasil cp tersimpan di -> cp.txt")
 				print(" [!] jika tidak ada hasil hidupkan mode pesawat 5 detik\n")
 				for user in self.id:
 					coeg.submit(self.api, user, listpass.split(","))
@@ -119,7 +119,7 @@ class Main:
 					exit("\n [!] kata sandi minimal 6 karakter")
 				print(" [*] crack dengan sandi -> [\033[0;91m%s\033[0;97m]"%(listpass))
 				print("\n [+] hasil ok tersimpan di -> ok.txt")
-				print(" [+] hasil ok tersimpan di -> cp.txt")
+				print(" [+] hasil cp tersimpan di -> cp.txt")
 				print(" [!] jika tidak ada hasil hidupkan mode pesawat 5 detik\n")
 				for user in self.id:
 					coeg.submit(self.api, user, listpass.split(","))
@@ -155,7 +155,7 @@ class Main:
 					exit("\n [!] kata sandi minimal 6 karakter")
 				print(" [*] crack dengan sandi -> [\033[0;91m%s\033[0;97m]"%(listpass))
 				print("\n [+] hasil ok tersimpan di -> ok.txt")
-				print(" [+] hasil ok tersimpan di -> cp.txt")
+				print(" [+] hasil cp tersimpan di -> cp.txt")
 				print(" [!] jika tidak ada hasil hidupkan mode pesawat 5 detik\n")
 				for user in self.id:
 					coeg.submit(self.api, user, listpass.split(","))
